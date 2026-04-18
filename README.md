@@ -1,8 +1,11 @@
-# autoware_core
+Tekila Autoware Core: Mission-Critical Engine
+This repository serves as the Standardized Core for Tekila Engineering Labs' autonomous driving stack. It integrates a curated selection of high-quality, stable ROS 2 packages designed for mission-critical deployments.
 
-- An [Autoware](https://github.com/autowarefoundation/autoware) repository that contains a basic set of high-quality, stable ROS packages for autonomous driving.
+Architecture Strategy: This core is maintained as the production-ready baseline. While experimental features are developed in our Universe modules, this repository ensures the integrity and reliability of the vehicle's primary flight/drive systems.
 
-- Although this repository is currently empty, porting of code from Universe to Core will begin once the interfaces for Autoware Core/Universe have been finalized, as per ongoing [Autoware Architecture WG](https://github.com/autowarefoundation/autoware/discussions?discussions_q=label%3Aarchitecture_wg) discussions.
-- A more detailed explanation about Autoware Core can be found on the [Autoware concepts documentation page](https://autowarefoundation.github.io/autoware-documentation/main/design/autoware-concepts/#the-core-module).
+Design Principles: Following the strict standards of autonomous vehicle architecture, we focus on modularity, safety-critical execution, and seamless hardware integration.
 
-- For researchers and developers who want to extend the functionality of Autoware Core with experimental, cutting-edge ROS packages, see [Autoware Universe](https://github.com/autowarefoundation/autoware_universe).
+For advanced AI research, experimental perception, and cutting-edge sensor fusion, refer to our Tekila-Universe extensions.
+
+Tekila Engineering Labs
+Distilling technology, refining the future.
